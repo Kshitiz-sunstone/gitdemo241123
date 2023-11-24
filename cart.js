@@ -39,3 +39,4 @@ function display() {
     document.getElementById('prod').innerHTML=result
 }
 display()
+console.log('hello')
