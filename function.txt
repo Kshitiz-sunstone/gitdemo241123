@@ -1,0 +1,9 @@
+takes parameter and retun value
+No parameter but retun value
+Takes Parameter But do not retun a value
+No parameter and no retun value
+
+factorial
+reverse a no
+faboonaci series
+pallidrome

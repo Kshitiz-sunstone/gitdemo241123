@@ -1,0 +1,16 @@
+/* Main  */
+.main{
+    padding: 50px;
+}
+li{
+    display: inline;
+    background-color: blue;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: yellowgreen ;
+}

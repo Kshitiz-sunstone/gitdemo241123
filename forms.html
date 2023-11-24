@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      table {
+        padding: 150px;
+      }
+      .myForm {
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myForm">
+      <form action="./test.php" method="get" target="_blank">
+        <h1 align="center">Login Here</h1>
+        <table align="center">
+          <tr>
+            <td><label for="uname">User Name</label></td>
+            <td><input type="text" name="user" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="pwd">Password</label></td>
+            <td><input type="password" name="pwd" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="mail">E-Mail</label></td>
+            <td><textarea name="mail" rows="8" cols="30">Write Here</textarea></td>
+          </tr>
+          <tr>
+            <td><button onclick="alert('You Clicked')">Click Me</button></td>
+            <td><button onclick="alert('Dont click me')">Dont Click Me</button></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Select</label></td>
+            <td><input type="checkbox" name="apple" value="apple">Apple</td>
+          </tr>
+          <tr>
+            <td><label for="mail"></label></td>
+            <td><input type="checkbox" name="mango" value="mango">Mango</td>
+          </tr>
+          <tr>
+            <td><label for="mail"></label></td>
+            <td><input type="checkbox" name="banana" value="banana" checked>Banana</td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gen">Male</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="radio" name="gen">Female</td>
+          </tr>
+          <tr>
+              <td>Select</td>
+              <td><select name="color" size="3" multiple>
+                  <option name="Red" value="Red">Red</option>
+                  <option name="Green" value="Green">Green</option>
+                  <option name="Blue" value="Blue">Blue</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td><input type="button" name="submit" value="Submit" /></td>
+              <td><input type="reset" name="reset" value="Reset" /></td>
+            </tr>
+        </table>
+        <input type="date">
+      </form>
+    </div>
+  </body>
+</html>

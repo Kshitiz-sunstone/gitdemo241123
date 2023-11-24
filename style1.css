@@ -1,0 +1,30 @@
+/* li{
+    display: inline;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    border-right: 2px solid black;
+    margin: -2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: red;
+} */
+li{
+    display: inline;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-right: 2px solid black;
+    margin: -2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: black;
+}
